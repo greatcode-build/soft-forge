@@ -21,7 +21,12 @@ const Navbar = () => {
           href="/"
           className="flex font-medium items-center text-gray-900 mb-2 md:mb-0"
         >
-          <Image src="/soft-forge.svg" width={32} height={32} alt="logo" />
+          <Image
+            src="/icons/soft-forge.svg"
+            width={32}
+            height={32}
+            alt="logo"
+          />
           <span className="ml-2 text-xl">Soft Forge</span>
         </Link>
         <ul className="hidden md:flex justify-center items-center gap-6 text-base">
@@ -37,7 +42,10 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="hidden md:block">
-          <CustomButton title="Register" />
+          <CustomButton
+            title="Register"
+            buttonStyle={`text-white py-1.5 px-5 bg-blue-600 hover:bg-blue-700 rounded-full text-base`}
+          />
         </div>
         <button
           className="md:hidden block text-slate-900"

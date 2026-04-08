@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Soft Forge",
   description:
     "Soft Forge is a software solutions for businesses built with Next.js",
-  icons: "/soft-forge.svg",
+  icons: "/icons/soft-forge.svg",
 };
 
 export default function RootLayout({
