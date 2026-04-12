@@ -15,7 +15,7 @@ const Title = ({
         {title}
       </h1>
       <p
-        className={`lg:w-1/2 w-full leading-relaxed text-base${subTitleStyles}`}
+        className={`lg:w-1/2 w-full leading-relaxed text-base ${subTitleStyles}`}
       >
         {subTitle}
       </p>
