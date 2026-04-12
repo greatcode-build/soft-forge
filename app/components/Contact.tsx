@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="lg:w-1/3 md:w-1/2 rounded-lg mx-auto flex flex-col mt-10 md:mt-0 w-full p-8 relative z-10 bg-white md:ml-auto md:mr-0">
           <h2 className="text-gray-800 text-lg font-medium mb-1">Feedback</h2>
           <p className="text-gray-600 mb-5">
-            We&apos;d love to hear your thoughts!
+            We value your feedback. Share your thoughts.
           </p>
           <TextInput type="email" placeholder="Email" styles="bg-white mb-5" />
           <textarea
