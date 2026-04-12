@@ -33,6 +33,7 @@ const Header = () => {
             width={500}
             height={500}
             className="rounded-md"
+            loading="eager"
           />
           <div className="absolute bg-white p-2 shadow-2xl rounded-lg left-0 top-6 flex items-center gap-2 cursor-pointer hover:scale-110 ease-in-out duration-300">
             <div className="rounded-full w-10.5 h-10.5">

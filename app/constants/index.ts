@@ -10,6 +10,12 @@ import {
   PieChart,
   RefreshCcw,
 } from "lucide-react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaXTwitter,
+} from "react-icons/fa6";
 
 export const stats = [
   { id: 1, value: 2500, title: "Clients", start: 2400, suffix: "+" },
@@ -22,7 +28,7 @@ export const navLinks = [
   { label: "About Us", path: "#about" },
   { label: "Services", path: "#services" },
   { label: "Team", path: "#team" },
-  { label: "Contact", path: "#contact" },
+  { label: "Contact Us", path: "#contact" },
 ];
 
 export const aboutData: {
@@ -82,7 +88,7 @@ export const services: {
   {
     id: 4,
     title: "Cybersecurity & Compliance",
-    text: "Protect your systems and data with robust security measures and industry-standard compliance.",
+    text: "Protect your systems and data with robust security measures and industry standard compliance.",
     icon: Shield,
     color: "#EF4444",
   },
@@ -195,4 +201,25 @@ export const reviews = [
     review:
       "The service works well and feels polished. I like how straightforward everything is. With a few minor tweaks, it would be close to perfect.",
   },
+];
+
+export const footerLinks = [
+  {
+    id: 1,
+    title: "Company",
+    links: ["Home", "About Us", "Services", "Our Team"],
+  },
+  { id: 2, title: "Privacy Policy", links: ["policies", "Contact", "FAQ"] },
+  {
+    id: 3,
+    title: "Support",
+    links: ["Account", "Support Center", "Feedback", "Accessibility"],
+  },
+];
+
+export const footerIcons = [
+  { id: 1, icon: FaInstagram },
+  { id: 2, icon: FaFacebookF },
+  { id: 3, icon: FaXTwitter },
+  { id: 4, icon: FaLinkedinIn },
 ];
